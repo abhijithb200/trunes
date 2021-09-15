@@ -1,0 +1,20 @@
+.header{
+    background-color:rgb(0, 0, 0);
+    max-height:120px;
+    text-align: center;
+}
+.header > img {
+    object-fit: contain;
+    height:100px;
+    padding-top: 0px;
+}
+.header__2{
+    background-color:rgb(0, 0, 0);
+    height:50px;
+    text-align: center;
+}
+.header__2 > p{
+    color: white;
+    font-size: 30px;
+    font-weight:300;
+}

@@ -1,0 +1,43 @@
+.footerplayer{
+    height:60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(169deg, #245d83 0%, #000000 100%);
+    padding:20px;
+    display:flex;
+
+}
+.footerplayer__left{
+    display:flex;
+    align-items:center;
+    width:90%;
+    color: white;
+    text-align: left;
+    justify-content: space-between;
+}
+.footerplayer__left1{
+    display:flex;
+    align-items:center;
+    flex:1;
+    cursor: pointer;
+}
+
+.footerplayer__left1 > img{
+    height:60px;
+    width:60px;
+    margin-right: 20px;
+    object-fit: contain;
+    
+}
+.footer__green{
+    color:#00ff59;
+    font-size:50px !important;
+}
+.footerplayer__youtube{
+    display: none;
+}
+.footerplayer__right{
+    cursor:pointer;
+}

@@ -1,0 +1,33 @@
+.musicChild{
+    display:flex;
+    align-items:center;
+    padding-bottom: 9px;
+    border-bottom: 1px solid grey;
+    
+}
+.musicChild:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+.musicChild > img{
+    object-fit: contain;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.musicChild__texts{
+    margin-left: 20px;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+.musicChild__texts > h1{
+    font-size:  18px;
+    font-weight: 500;
+    color: white;
+}
+.musicChild__texts > p{
+    font-size:13px;
+    color:white;
+}

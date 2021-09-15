@@ -1,0 +1,50 @@
+.subcard {
+    width: 170px;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    transition: all 450ms;
+
+}
+a{
+    text-decoration: none;
+}
+
+.subcard__text > h1{
+    text-align:center;
+    padding-top: 20%;
+    font-weight: 600;
+    color: white;
+}
+.subcard__text > hr{
+    margin-top: 15px;
+    width:70%;
+    margin-left: 15%;
+    color:grey;
+    
+}
+.subcard__text {
+    height:100%;
+}
+.subcard:hover{
+    transform: scale(1.08);
+}
+.subcard__text >p{
+    margin-top: 15px;
+    text-align:center;
+    padding-top: 20px;
+    font-size: 25px;
+    color:white;
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .subcard{
+
+        margin-right: 30px;
+        min-width: 200px;
+        border-radius: 20px;
+        
+    }
+}

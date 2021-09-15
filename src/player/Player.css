@@ -1,0 +1,10 @@
+.player{
+    background: #fedf69;
+    height:100vh;
+    display:grid;
+    place-items: center;
+}
+.player__name{
+    
+    
+}

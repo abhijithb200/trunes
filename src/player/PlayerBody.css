@@ -1,0 +1,75 @@
+.playerbody{
+    height:100%;
+    width:100%;
+ background-color: #8BC6EC; 
+    background-image: linear-gradient(198deg, #2ba2f1 0%, #000000 100%); 
+    /* border-radius:30px; */
+    display:grid;
+    place-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 50px 1px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 2px 2px 50px 1px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 2px 2px 50px 1px rgba(0, 0, 0, 0.57);
+    /* background-image: url('https://sgdccdnems04.cdnsrv.jio.com/c.saavncdn.com/614/Love-Action-Drama-Malayalam-2019-20191122065339-500x500.jpg'); */
+    background-position: center;
+}
+.playerbody__youtube{
+    display:none;
+}
+.playerbody__center > h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width:300px;
+    padding-bottom: 10px;
+}
+.playerbody__center > h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    width:300px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.player__green{
+    color:#00ff59;
+    font-size:80px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.player__white{
+    color:#fafafa;
+    font-size:50px !important;
+    cursor: pointer;
+}
+.playerbody__logo{
+    object-fit: contain;
+    height:130px;
+    
+    
+}
+.player__back{
+    position: absolute;
+    top:40px;
+    left:40px;
+    color:#fafafa;
+    font-size:35px !important;
+    cursor: pointer;
+}
+
+.playerbody__controls{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.playerbody__center > p{
+    color: white;
+    font-size: 10px;
+}
+@media only screen and (max-width: 768px) {
+.playerbody{
+    width:100%;
+    height:100%;
+}
+}

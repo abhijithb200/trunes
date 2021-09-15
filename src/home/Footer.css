@@ -1,0 +1,18 @@
+.footer{
+    background:rgb(0, 0, 0);
+    color: white;
+    height:50px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+}
+.footer > h3{
+    font-weight: 500;
+}
+.link{
+    color:white;
+}

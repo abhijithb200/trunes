@@ -1,0 +1,37 @@
+.language-card{
+    margin: 20px;
+    margin-left: 30px;
+    border: 3px solid black;
+    max-width: 200px;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    
+
+}
+.language-card > a{
+    text-decoration: none;
+}
+.language-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0);
+}
+.language-card > h3{
+    display:grid;
+    place-items: center;
+    padding-top: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+.language-card > img{
+    object-fit: contain;
+    height: 100px;
+}
